@@ -13,9 +13,9 @@ html{
 
 .pattern-quotes{
     position:fixed;
-    top:27%;
+    top:23%;
     left:18%;
-    width:8%;
+    width:7%;
 }
 
 /*fazer um container para alinhar estes elementos em relaçao ao container e o container 
@@ -23,11 +23,11 @@ relativamente a pag. */
 
 .img-container{
     /*background: gray;*/
-    width:45%;
+    width:65%;
     height:75%;
     position:fixed;
-    top:8%;
-    right:2%;
+    top:9%;
+    left:45%;
     background-image: url(./images/pattern-bg.svg);
     background-size:contain;
     background-repeat:no-repeat;
@@ -35,7 +35,7 @@ relativamente a pag. */
 }
 
 .img-container .photo{
-    width:87%;
+    width:88%;
     height:83%;
     position:relative;
     background-size:contain;
@@ -48,19 +48,88 @@ relativamente a pag. */
     background: url(./images/image-tanya.jpg);
 }
 
-.img-container .icon-container{
+.icon-container{
     position:relative;
-    top:4%;
-    left:25%;
-    width:15%;
+    top:3%;
+    left:30%;
+    width:12%;
     height:10%;
-    background:green;
-    text-align:center;
+    background:whitesmoke;
+    display: flex;
+    justify-content: center;
+    border-radius:50px;
+    -webkit-box-shadow: -3px 7px 34px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 7px 34px -16px rgba(0,0,0,0.75);
+    box-shadow: -3px 7px 34px -16px rgba(0,0,0,0.75);
+}
+
+.btn{
+    width:25%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    border:none;
+}
+
+.btnPrev{
+    border-radius: 50px 0 0 50px;
 
 }
-.icon-prev{
+.btnPrev:active{
+    width:25%;
+    height:100%;
+    background-color:hsl(240, 18%, 77%);
+    box-shadow: inset -200px 28px 209px -200px rgba(58, 58, 58, 0.37);
+}
+
+.btnNext{
+    border-radius: 0 50px 50px 0;
+        
+}
+.btnNext:active{
+    background-color:hsl(240, 18%, 77%);
+    box-shadow: inset -165px 28px 209px -200px rgba(58, 58, 58, 0.37);
+    
     
 }
+
+.slider-nav{
+    cursor:pointer;
+}
+.testimony-container{
+   position:fixed;
+   top:31%;
+   left:11%;
+}
+
+.testimony-tanya{
+    position:relative;
+    font-size:2.5em;
+    color:hsl(240, 38%, 20%);
+}
+.signature-tanya{
+    color:hsl(240, 38%, 20%);
+}
+.signature-tanya a{
+    color:hsl(240, 38%, 20%);
+    font-weight:900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

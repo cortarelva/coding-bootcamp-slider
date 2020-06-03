@@ -7,6 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="normalize.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -29,21 +32,24 @@
   <div class="photo"></div>
 
 
-  <div class="icon-container"> 
-    <img class="icon-prev" src="images/icon-prev.svg">
-    <img class="icon-next" src="images/icon-next.svg">
+  <div  class="icon-container" > 
+      <button id="btnPrev" class="btn btnPrev" onclick="changeBtnColor"><img src="images/keyboard_arrow_left-24px.svg"></button>
+      <button id="btnNext" class="btn btnNext"><img src="images/keyboard_arrow_right-24px.svg"></button>
   </div>
 </div>
 
 
-<!--
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
+<div class="testimony-container">
+  <p class="testimony-tanya">
+  “ I’ve been interested in coding for a while<br> 
+  but never taken the jump, until now. I<br> 
+  couldn’t recommend this course enough. <br>
+  I’m now in the job of my dreams and so <br>
   excited about the future. ”
+  </p>
+  <p class="signature-tanya"><a>Tanya Sinclair</a>UX Engineer</p>
 
-  Tanya Sinclair
-  UX Engineer
--->
+<div>
 <!--
   “ If you want to lay the best foundation possible I’d recommend taking this course. 
   The depth the instructors go into is incredible. I now feel so confident about 
@@ -58,5 +64,10 @@
     Coded by <a href="#">Your Name Here</a>.
 -->
   </div>
+
+
+
+
+<script src="./main.js" ></script>  
 </body>
 </html>
