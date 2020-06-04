@@ -44,7 +44,7 @@ function sliderUser2(){
     document.getElementById('role').innerText = user2Role;
 }
 
-window.onload(sliderUser1());
+onload = sliderUser1();
 
 btnNext.addEventListener('click', sliderUser2);
  

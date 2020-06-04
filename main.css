@@ -1,7 +1,7 @@
 /* pattern images*/
 html{
     -moz-box-sizing: border-box;
-       box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .pattern-curve{
@@ -10,16 +10,12 @@ html{
    width:40%; 
 }
 
-
 .pattern-quotes{
     position:fixed;
     top:23%;
     left:18%;
     width:7%;
 }
-
-/*fazer um container para alinhar estes elementos em relaçao ao container e o container 
-relativamente a pag. */
 
 .img-container{
     /*background: gray;*/
