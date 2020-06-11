@@ -26,9 +26,6 @@ const user1Role = testimony.user1.role;
 const user2Role = testimony.user2.role;
 
 
-
-
-
 function sliderUser1(){
     document.getElementById('photo').style.backgroundImage = user1Photo;
     document.getElementById('testimony').innerHTML = user1Testimony;
@@ -44,10 +41,11 @@ function sliderUser2(){
     document.getElementById('role').innerText = user2Role;
 }
 
+
+
 onload = sliderUser1();
 
 btnNext.addEventListener('click', sliderUser2);
  
 btnPrev.addEventListener('click', sliderUser1);
     
-
