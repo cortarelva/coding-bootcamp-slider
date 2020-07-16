@@ -118,7 +118,6 @@ html {
 }
 
 
-
 @media (max-width: 414px) {
     .img-container {
         width: 77%;
@@ -166,6 +165,10 @@ html {
     }
 }
 
+
+
+
+/******************************************************************************/
 /*This is just part of my standard boiler plate for projects and can be removed*/
 /*I copied this boilerplate from someone but cant remmember who. Sorry*/
 
